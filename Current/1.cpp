@@ -1,7 +1,6 @@
-
-// #pragma GCC optimize("Ofast")
-// #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
-// #pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
+#pragma GCC optimize("unroll-loops")
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -134,15 +133,15 @@ mt19937 RNG(chrono::steady_clock::now().time_since_epoch().count());
 #define int ll
 void solve(int it)
 {
-   
+
 }
 signed main()
 {
     fast_cin();
     // freopen ("input.txt" , "r" , stdin);
     // freopen ("output.txt", "w" , stdout);
-    ll t=1;
-    //cin >> t;
+    ll t;
+    cin >> t;
     for(int it=1;it<=t;it++)
     {
         solve(it);
